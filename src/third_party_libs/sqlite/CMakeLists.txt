@@ -59,4 +59,4 @@ endif(MaidsafeTesting)
 set_target_properties(sqlite ${AllExesForCurrentProject} PROPERTIES FOLDER "Third Party/SQLite")
 
 install(TARGETS sqlite COMPONENT Development CONFIGURATIONS Debug Release ARCHIVE DESTINATION lib)
-install(FILES ${PROJECT_SOURCE_DIR}/include/sqlite.h COMPONENT Development DESTINATION include/maidsafe/third_party_libs/sqlite)
+install(FILES ${PROJECT_SOURCE_DIR}/include/sqlite3.h COMPONENT Development DESTINATION include/maidsafe/third_party_libs/sqlite)
